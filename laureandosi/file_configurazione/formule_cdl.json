@@ -1,0 +1,133 @@
+    {
+    "INGEGNERIA BIOMEDICA (IBM-L)": {
+        "FormulaString" : "(110/27.17)*(M*CFU+T*3)/(CFU+3)",
+        "Formula": "(110 / 27.17) * ( $M * $CFU + $T * 3 ) / ( $CFU + 3 )",
+        "CFUCurriculari" : 177,
+        "TesiMin" : 18,
+        "TesiMax" : 30,
+        "TesiStep" : 1,
+        "CommMin" : 0,
+        "CommMax" : 0,
+        "CommStep" : 0
+    },
+
+    "INGEGNERIA ELETTRONICA (IEL-L)": {
+        "FormulaString" : "2+4*(M*CFU +T*3)/(CFU+3)",
+        "Formula": "2 + 4 * ( $M * $CFU + $T * 3) / ( $CFU + 3)",
+        "CFUCurriculari" : 177,
+        "TesiMin" : 18,
+        "TesiMax" : 33, 
+        "TesiStep" : 1,
+        "CommMin" : 0,
+        "CommMax" : 0,
+        "CommStep" : 0
+    },
+
+    "INGEGNERIA INFORMATICA (IFO-L)": {
+        "FormulaString" : "M*3+18+T+C",
+        "Formula": "$M * 3 + 18 + $T + $C",
+        "CFUCurriculari" : 177,
+        "TesiMin" : 0,
+        "TesiMax" : 0,
+        "TesiStep" : 0,
+        "CommMin" : 1,
+        "CommMax" : 7,
+        "CommStep" : 1
+    },
+
+    "INGEGNERIA DELLE TELECOMUNICAZIONI (ITC-L)": {
+        "FormulaString" : "M*11/3+C",
+        "Formula": "$M * 11 / 3+ $C",
+        "CFUCurriculari" : 177,
+        "TesiMin" : 0,
+        "TesiMax" : 0,
+        "TesiStep" : 0,
+        "CommMin" : 1,
+        "CommMax" : 11,
+        "CommStep" : 1
+    },
+
+    "INGEGNERIA BIOMEDICA (WIB-LM)": {
+        "FormulaString" : "M*3.5+11+C",
+        "Formula": "$M * 3.5 + 11 + $C",
+        "CFUCurriculari" : 105,
+        "TesiMin" : 0,
+        "TesiMax" : 0,
+        "TesiStep" : 0,
+        "CommMin" : 0.5,
+        "CommMax" : 4,
+        "CommStep" : 0.5
+    },
+
+    "INGEGNERIA ELETTRONICA (WIE-LM)": {
+        "FormulaString" : "4*(M*CFU+T*18)/(CFU+18)",
+        "Formula": "4 * ( $M * $CFU + $T * 18 ) / ( $CFU + 18 )",
+        "CFUCurriculari" : 102,
+        "TesiMin" : 18,
+        "TesiMax" : 30,
+        "TesiStep" : 1,
+        "CommMin" : 0,
+        "CommMax" : 0,
+        "CommStep" : 0
+    },
+
+    "COMPUTER ENGINEERING (WCN-LM)": {
+        "FormulaString" : "M*3+22+T+C",
+        "Formula": "$M * 3 + 22 + $T + $C",
+        "CFUCurriculari" : 96,
+        "TesiMin" : 0,
+        "TesiMax" : 0,
+        "TesiStep" : 0,
+        "CommMin" : 1,
+        "CommMax" : 3,
+        "CommStep" : 1
+    },
+
+    "ARTIFICIAL INTELLIGENCE AND DATA ENGINEERING (WAI-LM)": {
+        "FormulaString" : "M*3+22+T+C",
+        "Formula": "$M * 3 + 22 + $T + $C",
+        "CFUCurriculari" : 96,
+        "TesiMin" : 0,
+        "TesiMax" : 0,
+        "TesiStep" : 0,
+        "CommMin" : 1,
+        "CommMax" : 3,
+        "CommStep" : 1
+    },
+
+    "INGEGNERIA ROBOTICA E DELL'AUTOMAZIONE (WIM-LM)": {
+        "FormulaString" : "M*3+18.5+T",
+        "Formula": "$M * 3 + 18.5 + $T",
+        "CFUCurriculari" : 102,
+        "TesiMin" : 1,
+        "TesiMax" : 10,
+        "TesiStep" : 1,
+        "CommMin" : 0,
+        "CommMax" : 0,
+        "CommStep" : 0
+    },
+
+    "INGEGNERIA DELLE TELECOMUNICAZIONI (WIT-LM)": {
+        "FormulaString" : "M*11/3+C",
+        "Formula": "$M * 11 / 3 + $C",
+        "CFUCurriculari" : 96,
+        "TesiMin" : 0,
+        "TesiMax" : 0,
+        "TesiStep" : 0,
+        "CommMin" : 1,
+        "CommMax" : 11,
+        "CommStep" : 1
+    }, 
+
+    "CYBERSECURITY (WCY-LM)": {
+        "FormulaString" : "M*3+22+T+C",
+        "Formula": "$M * 3 + 22 + $T + $C",
+        "CFUCurriculari" : 120,
+        "TesiMin" : 0,
+        "TesiMax" : 0,
+        "TesiStep" : 0,
+        "CommMin" : 1,
+        "CommMax" : 3,
+        "CommStep" : 1
+    }
+}
